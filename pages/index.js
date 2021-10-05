@@ -35,10 +35,8 @@ const Home = () => {
             src={a}
             alt=""
             title=""
-            width="100%"
-            height="100%"
-            layout="responsive"
-            objectFit="contain"
+            width="400px"
+            height="400px"
           />
         </div>
         <div className="img2" style={{opacity: 0}}>
@@ -46,10 +44,8 @@ const Home = () => {
             src={b}
             alt=""
             title=""
-            width="100%"
-            height="100%"
-            layout="responsive"
-            objectFit="contain"
+            width="400px"
+            height="400px"
           />
         </div>
         <div className="img3">
@@ -57,10 +53,8 @@ const Home = () => {
             src={c}
             alt=""
             title=""
-            width="100%"
-            height="100%"
-            layout="responsive"
-            objectFit="contain"
+            width="400px"
+            height="400px"
           />
         </div>
       </div>
