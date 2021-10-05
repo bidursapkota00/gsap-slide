@@ -5,7 +5,7 @@ import c from "../img/c.jpeg";
 import { gsap } from "gsap";
 import { useEffect } from "react";
 
-const index = () => {
+const Home = () => {
   useEffect(() => {
     const timeline = gsap.timeline({
       repeat: -1,
@@ -24,7 +24,7 @@ const index = () => {
       .to(".img1, .img2, .img3", { y: "-200%", duration: 1 }, ">");
     timeline.set(".img1", { y: "100%" });
     timeline
-      .to(".img2, .img3", { y: "-300%", duration: 1 }, ">")
+      .to(".img2, .img3", { y: "-300%", opacity: 0, duration: 1 }, ">")
       .to(".img1", { y: "0%", opacity: 1, duration: 1 }, "<")
   }, []);
   return (
@@ -68,4 +68,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;
